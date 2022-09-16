@@ -1,0 +1,29 @@
+.modal {
+    position: absolute;
+    width: 528px;
+    height: 581px;
+    top: 50%;
+    left: 50%;
+    background-color: var(--primary-bg-color);
+    transform: translate(-50%, -50%);
+    padding: 40px;
+}
+
+.modal__close-btn {
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    top: 8px;
+    right: 8px;
+    transition: fill var(--transit-dur-func);
+}
+.modal-close-btn:hover {
+    fill: var(--accent-color);
+}
