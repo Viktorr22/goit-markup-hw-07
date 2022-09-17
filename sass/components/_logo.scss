@@ -7,16 +7,16 @@
     color: var(--accent-color);
     text-decoration: none;
     margin-right: 95px;
-}
 
-.logo__header-black {
-    color: var(--logo-header-color);
-}
+    &_header-black {
+        color: var(--logo-header-color);
+    }
 
-.logo-footer {
-    margin-right: 0px;
-}
+    &_footer {
+        margin-right: 0px;
+    }
 
-.logo__footer-white {
-    color: var(--text-color-hero);
+    &_footer-white {
+        color: var(--text-color-hero);
+    }
 }

@@ -9,21 +9,23 @@
     background-position: center;
     margin-right: auto;
     margin-left: auto;
+
+    &__title {
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--text-color-hero);
+            margin-bottom: 30px;
+            width: 696px;
+            margin-left: auto;
+            margin-right: auto;
+        }
 }
 
-.hero__title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--text-color-hero);
-    margin-bottom: 30px;
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .hero__button {
     font-family: inherit;
@@ -43,9 +45,10 @@
     border-color: transparent;
     padding: 10px;
     transition: color var(--transit-dur-func);
+
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
 }
 
-.hero__button:hover,
-.hero__button:focus {
-    color: var(--accent-color);
-}

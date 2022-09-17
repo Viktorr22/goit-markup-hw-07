@@ -23,7 +23,8 @@
     top: 8px;
     right: 8px;
     transition: fill var(--transit-dur-func);
-}
-.modal-close-btn:hover {
-    fill: var(--accent-color);
+
+    &:hover {
+            fill: var(--accent-color);
+        }
 }
