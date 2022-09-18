@@ -99,16 +99,18 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
-  margin-right: 95px;
+  margin-right: 93px;
 }
 .logo_header-black {
   color: var(--logo-header-color);
+  margin-right: 0px;
 }
 .logo_footer {
   margin-right: 0px;
 }
 .logo_footer-white {
   color: var(--text-color-hero);
+  margin-right: 0px;
 }
 
 .backdrop {
@@ -710,6 +712,7 @@ textarea::-webkit-input-placeholder {
   border-radius: 4px;
   background-color: var(--accent-color);
   border-color: transparent;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
